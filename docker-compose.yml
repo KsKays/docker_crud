@@ -34,7 +34,7 @@ services:
       - ./nginx/conf/nginx.conf:/etc/nginx/conf/nginx.conf:ro
       - ./nginx/conf.d:/etc/nginx/conf.d:ro
     ports:
-      - "8888:80"
+      - "88:80"
     restart: always
     networks:
       - web_network

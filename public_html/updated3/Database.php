@@ -1,10 +1,10 @@
 <?php
 class Database
 {
-    private $host = "localhost";
-    private $dbname = "store";
-    private $username = "root";
-    private $password = "";
+    private $host = "db";
+    private $dbname = "sample_db";
+    private $username = "admin";
+    private $password = "1234";
     private $charset = "utf8mb4";
     private $pdo;
     public function __construct()
